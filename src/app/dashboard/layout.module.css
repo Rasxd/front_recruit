@@ -7,6 +7,7 @@
   height: 79px;
   align-items: center;
   border-bottom: 1px solid rgb(224, 229, 227);
+  justify-content: space-between;
 }
 
 .buttonsWrapper {
@@ -17,6 +18,22 @@
   width: 100%;
   color: #15372c;
   margin-left: 12px;
+}
+
+
+.leftContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .headerButtons {

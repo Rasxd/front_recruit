@@ -8,19 +8,22 @@ export default function DashboardLayout({
   return (
     <section>
       <div className={styles.headerWrapper}>
-        <h1>Greenhouse</h1>
-        <div className={styles.buttonsWrapper
-        }>
-          <button className={styles.headerButtons}>Platforms</button>
-          <button className={styles.headerButtons}>Why Greenhouse</button>
-          <button className={styles.headerButtons}>Resources</button>
-          <button className={styles.headerButtons}>About</button>
-          <button className={styles.headerButtons}>Community</button>
 
-          <div className={styles.contentRight} >
-            <FaGear />
+        <div className={styles.leftContent}>
+          <h1>Greenhouse</h1>
+          <div className={styles.buttonsWrapper}>
+            <button className={styles.headerButtons}>Platforms</button>
+            <button className={styles.headerButtons}>Why Greenhouse</button>
+            <button className={styles.headerButtons}>Resources</button>
+            <button className={styles.headerButtons}>About</button>
+            <button className={styles.headerButtons}>Community</button>
           </div>
         </div>
+
+        <div className={styles.rightContent} >
+          <FaGear />
+        </div>
+
       </div>
       {children}
     </section >
