@@ -70,3 +70,16 @@
 .contentRight {
   margin-left: auto;
 }
+
+.profileButton {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 12px;
+}

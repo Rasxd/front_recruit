@@ -22,6 +22,9 @@ export default function DashboardLayout({
 
         <div className={styles.rightContent} >
           <FaGear />
+          <button className={styles.profileButton}>
+            LS
+          </button>
         </div>
 
       </div>
